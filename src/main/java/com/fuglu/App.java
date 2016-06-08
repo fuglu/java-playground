@@ -1,13 +1,11 @@
 package com.fuglu;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import com.fuglu.futures.CompletableFuturePlayground;
+
+public class App
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+	public static void main(final String[] args) throws Exception
+	{
+		new CompletableFuturePlayground().start();
+	}
 }
